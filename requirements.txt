@@ -1,0 +1,2 @@
+# Polished project overview
+└── requirements.txt                    # Dependencies (pandas, numpy, matplotlib, seaborn, scipy)

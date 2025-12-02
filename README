@@ -1,0 +1,24 @@
+# Quantium Retail Analytics – Task 2: Trial Layout Assessment
+
+This project replicates Quantium’s Task 2 workflow: testing new chip layouts in trial stores (77, 86, 88) against matched control stores.
+
+## 🔍 Methodology
+- Control store selection using correlation + magnitude distance
+- Trial period: Feb–Apr 2019
+- Metrics: total sales, number of customers
+- Uplift testing with t-values and confidence bands
+
+##  Results
+- **Store 77** → Significant uplift in March & April →  Roll out
+- **Store 86** → Uplift in customers but not sales →  Retest
+- **Store 88** → Consistent uplift across trial months →  Roll out
+
+##  Visuals
+See `/outputs` for trial vs. control charts with confidence intervals.
+
+##  Tech Stack
+- Python (pandas, numpy, seaborn, matplotlib, scipy)
+- Jupyter Notebook
+
+##  Recommendation
+Roll out the new layout to stores 77 and 88. Retest store 86 before rollout.
